@@ -1,3 +1,92 @@
-header {
-    
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+body {
+    background-color: white;
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.flexbox-container {
+    animation: fadeIn 1.5s;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.flexbox-inner-row {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.flexbox-content-column {
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-direction: row;
+}
+.flexbox-padder {
+    min-width: 0px;
+    width: 200px;
+}
+.menu-top {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.menu-one {
+    animation: fadeIn 1s;
+    background-color: #727272;
+    height: 2rem;
+    width: 100%;
+}
+.menu-two {
+    animation: fadeIn 1.5s;
+    background-color: #a09f9f;
+    height: 2rem;
+    width: 100%;
+}
+.menu-three {
+    animation: fadeIn 2s;
+    background-color: #d1d0d0;
+    height: 2rem;
+    width: 100%;
+}
+.main-header {
+    width: 100%;
+    padding-top: 6rem;
+    margin: 0;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Agency FB';
+    color: #5e5d5d;
+}
+.about-me {
+    width: 500px;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    color: #5e5d5d;
+    margin-bottom: 10px;
+}
+.menu-bottom {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 1;
+}
+.flexbox-home-nav-buttons {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    padding-right: 15px;
+    padding-left: 0px;
 }
