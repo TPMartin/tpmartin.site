@@ -33,13 +33,15 @@ body {
     flex-direction: row;
 }
 .flexbox-padder {
-    min-width: 0px;
+    min-width: 10px;
     width: 200px;
 }
 .menu-top {
     width: 100%;
+    position: fixed;
     padding: 0;
     margin: 0;
+    z-index: 1;
 }
 .menu-one {
     animation: fadeIn 1s;
@@ -63,7 +65,7 @@ body {
     width: 100%;
     padding-top: 6rem;
     margin: 0;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bold;
     font-family: 'Agency FB';
     color: #5e5d5d;
