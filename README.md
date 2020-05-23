@@ -1,2 +1,3 @@
 # tpmartin.site
-personal website project
+
+Personal project while I learn HTML, CSS and JavaScript
