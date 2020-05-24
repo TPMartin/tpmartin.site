@@ -38,27 +38,25 @@ body {
 }
 .menu-top {
     width: 100%;
-    position: fixed;
     padding: 0;
     margin: 0;
-    z-index: 1;
 }
 .menu-one {
     animation: fadeIn 1s;
     background-color: #727272;
-    height: 2rem;
+    height: 1.5rem;
     width: 100%;
 }
 .menu-two {
     animation: fadeIn 1.5s;
     background-color: #a09f9f;
-    height: 2rem;
+    height: 1.5rem;
     width: 100%;
 }
 .menu-three {
     animation: fadeIn 2s;
     background-color: #d1d0d0;
-    height: 2rem;
+    height: 1.5rem;
     width: 100%;
 }
 .main-header {
@@ -85,10 +83,21 @@ body {
     position: fixed;
     z-index: 1;
 }
-.flexbox-home-nav-buttons {
-    display: flex;
-    justify-content: start;
-    flex-direction: row;
-    padding-right: 15px;
-    padding-left: 0px;
+.button {
+    border-width: 2px; 
+    border-color: #3c3c3c; 
+    background-color: transparent; 
+    font-family: 'Agency FB'; 
+    color: #3c3c3c; 
+    font-size: 1.5rem; 
+    margin-right: 20px;
+}
+.button1 {
+    border-width: 2px; 
+    border-color: #3c3c3c; 
+    background-color: transparent; 
+    font-family: 'Agency FB'; 
+    color: #3c3c3c; 
+    font-size: 1.5rem; 
+    margin-right: 20px;
 }
