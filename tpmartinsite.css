@@ -101,3 +101,7 @@ body {
     font-size: 1.5rem; 
     margin-right: 20px;
 }
+.nav-button:hover {
+    background-color: #d1d0d0;
+    cursor: pointer;
+}
